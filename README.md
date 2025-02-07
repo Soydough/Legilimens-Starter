@@ -10,10 +10,10 @@ If you don't have them already, download Hogwarts Legacy Save Tool from [Nexusmo
 
 For this to work, you need the following file structure:
 📁 (Root Folder)  
-  ├── 📁 HLSaveTool  
-      └── hlsaves.exe  
-  ├── Legilimens.exe  
-  └── LegilimensStarter.exe (you can rename this)  
+	├── 📁 HLSaveTool  
+		└── hlsaves.exe  
+	├── Legilimens.exe  
+	└── LegilimensStarter.exe (you can rename this)  
 
 Then, run LegilimensStarter and follow the instructions.
 

@@ -6,6 +6,10 @@ on:
       - 'v*'  # Triggers when a tag like "v1.0.0" is pushed
   workflow_dispatch:  # Allows manual runs
 
+permissions:
+  contents: write  # Required to upload release assets
+  id-token: write  # Required to create releases
+
 jobs:
   build:
     runs-on: windows-latest

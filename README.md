@@ -9,6 +9,7 @@ Decompressing the save files is necessary, but it detracts from the convenience 
 If you don't have them already, download Hogwarts Legacy Save Tool from [Nexusmods](https://www.nexusmods.com/hogwartslegacy/mods/1983), as well as Legilimens either from [Nexusmods](https://www.nexusmods.com/hogwartslegacy/mods/556) (use the executable version) or [GitHub](https://github.com/Malin001/Legilimens-Hogwarts-Legacy-cpp)
 
 For this to work, you need the following file structure:
+
 ![image](https://github.com/user-attachments/assets/8fc5b85e-c062-4ddc-85ab-e0b8b5cbec3e)
 
 Then, run LegilimensStarter and follow the instructions.

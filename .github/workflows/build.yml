@@ -1,0 +1,29 @@
+name: Build .NET Framework App
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v1.1
+
+      - name: Install .NET Framework 4.8 Developer Pack
+        run: choco install netfx-4.8-devpack -y
+
+      - name: Restore NuGet packages
+        run: nuget restore "Legilimens Starter.sln"
+
+      - name: Build Solution
+        run: msbuild "Legilimens Starter.sln" /p:Configuration=Release
